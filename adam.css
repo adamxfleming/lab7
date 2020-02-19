@@ -1,0 +1,27 @@
+html, body{
+    margin:0;
+}
+
+#entire{
+    width: 100vw;
+    height: 100vh;
+}
+
+#box{
+    flex-direction: column;
+}
+
+#box > .input{
+    margin: 5px;
+    padding: 5px;
+}
+
+#question{
+    font-size: 25px;
+}
+
+.flexed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
